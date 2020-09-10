@@ -1,0 +1,33 @@
+/* selected tag {
+    property: value;
+} */
+
+body {
+    /*background-color: wheat;*/
+    /* background: wheat; */
+    background: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: lighter;
+}
+
+div {
+    background: skyblue;
+    border-color: blue;
+    border-width: 5px;
+    /* border-style: dotted; */
+    border-style: double;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+p {
+    background: crimson;
+    color: cyan;
+    font-weight: normal;
+}
+
+span {
+    background: burlywood;
+    color: darkred;
+}
