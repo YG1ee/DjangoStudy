@@ -1,0 +1,20 @@
+/* selected tag {
+    property: value;
+} */
+
+h1 {
+    font-family: "Comic Sans MS";
+    color: rgb(255, 85, 0);
+}
+
+p {
+    font-family: "Hack";
+}
+
+ol {
+    font-family: "consolas";
+}
+
+h4 {
+    color: teal;
+}
