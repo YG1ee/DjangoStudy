@@ -1,0 +1,54 @@
+* {
+    background-color: darkkhaki;
+    /* code below will make all the fonts' color black
+    except id styles. not recommended. */
+    /* color: black; */
+}
+
+div {
+    color: cyan;
+}
+
+/* subset */
+/* dot is for class*/
+.div1 {
+    color: wheat;
+    background-color: darkslateblue; /* This is muted */
+}
+
+.div2 {
+    color: crimson;
+}
+
+/* sharp is for id*/
+#singledout {
+    color: teal;
+    text-decoration: line-through;
+}
+
+/* plus' meaning: describing the latter tag that is immediately
+    after the former one */
+.div2 + .div3 {
+    color: brown;
+}
+
+/* This won't do anything because there is no div2 class after div3 */
+.div3 + .div2 {
+    color: aquamarine;
+}
+
+h3 + ul {
+    border: 4px dotted palevioletred;
+    padding: 50px;
+}
+
+/* anchor tag inside list tag*/
+li a {
+    color: slategrey;
+}
+
+/* anchor tag whose link is like below that is inside list tag*/
+li a[href="https://google.ca"] {
+    color: white;
+    border: 5px solid salmon;
+}
