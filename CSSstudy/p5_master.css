@@ -1,0 +1,16 @@
+li {
+    color: rebeccapurple;
+}
+
+/* class tag is higher in hierarchy
+    than general tag */
+.topitems {
+    color: forestgreen;
+}
+
+/* id tag is higher in hierarchy
+    than class tag */
+#two {
+    border: 3px solid black;
+    color: paleturquoise;
+}
