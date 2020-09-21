@@ -26,7 +26,7 @@ div {
     text-decoration: line-through;
 }
 
-/* plus' meaning: describing the latter tag that is immediately
+/* meaning of plus: describing the latter tag that is immediately
     after the former one */
 .div2 + .div3 {
     color: brown;
